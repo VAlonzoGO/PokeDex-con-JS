@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slackey&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>PokeDex LaunchX</h1>
+            <input type="text" placeholder="insert pokename" id="pokeSearch" name="pokeSearch">
+            <button onclick="fetchPokemon()" >Search</button>
+        </div>
+        <div class="img">
+            <img src="./images/pokeball.png" alt="Pokeball" id="pokeImg" width="150px" height="150px">
+        </div>
+        <div id="dataPokemon">
+            <h2 id="name">Name</h2>
+            <div class="generals">
+                <div class="data">
+                    <img src="./images/hash.svg" alt="">
+                    <p id="id" >ID</p>
+                </div>
+                <div class="data">
+                    <img src="./images/heart-fill.svg" alt="">
+                    <p id="Hp">HP</p>
+                </div>
+                <div class="data">
+                    <img src="./images/arrow-through-heart-fill.svg" alt="">
+                    <p id="Atack">Atack</p>
+                </div>
+                <div class="data">
+                    <img src="./images/shield-fill.svg" alt="">
+                    <p id="Defense">Defense</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/main.js"></script>
+</html>

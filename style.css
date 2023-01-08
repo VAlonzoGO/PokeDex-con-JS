@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/fondo.jpg);
+    font-family: 'Slackey', cursive;
+}
+
+.container {
+    display: inline-block;
+    padding: 1rem;
+    justify-content: center;
+    background-color: rgba(191, 30, 46, 0.559);
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.container input {
+    padding: 1rem;
+    font-size: 1rem;
+    align-self: center;
+
+}
+
+.container button {
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+}
+
+.container button:hover {
+    background-color: rgba(1, 1, 151, 0.76);
+    color: white;
+}
+
+.img {
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    background:url(./images/EP946_Bosque_de_Melemele.png);
+    align-items: center;
+}
+
+#dataPokemon {
+    padding: 1rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.generals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.data {
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data img {
+    width: 20px;
+    height: 22px;
+    padding: .2rem;
+}
+
+#Hp {
+    color: green;
+}
+
+#Atack {
+    color: rgb(128, 0, 0);
+}
+
+#Defense {
+    color: blue;
+}
+
+.dataAbilities {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    font-weight:bold;
+}
